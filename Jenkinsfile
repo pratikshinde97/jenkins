@@ -12,12 +12,18 @@ pipeline {
                 echo "heloo world"
             }
         }
-      stage('list') {
+      stage('pwd') {
             steps {
                 echo "sh command"
-                sudo sh pwd
-                echo "cd"
-                sudo sh cd
+                sh pwd
+               
+            }
+        }
+             stage('cd') {
+            steps {
+                echo "cd command"
+                cd
+               
             }
         }
     }
