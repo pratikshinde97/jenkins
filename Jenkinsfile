@@ -14,7 +14,8 @@ pipeline {
         }
       stage('list') {
             steps {
-               sh ls
+                echo "cd command"
+                cd sportyfit_backend/
             }
         }
     }
