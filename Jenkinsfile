@@ -22,7 +22,7 @@ pipeline {
              stage('cd') {
             steps {
                 echo "cd command"
-                cd
+                sh cd
                
             }
         }
