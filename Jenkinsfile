@@ -16,7 +16,7 @@ pipeline {
             steps {
                 echo "cd command"
                 sh cd
-                sh cd sportyfit_backend/
+                sh 'cd sportyfit_backend/'
                
             }
         }
