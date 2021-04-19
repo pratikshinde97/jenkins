@@ -12,13 +12,6 @@ pipeline {
                 echo "heloo world"
             }
         }
-      stage('pwd') {
-            steps {
-                echo "sh command"
-                sh pwd
-               
-            }
-        }
              stage('cd') {
             steps {
                 echo "cd command"
