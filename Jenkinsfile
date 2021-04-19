@@ -14,8 +14,9 @@ pipeline {
         }
              stage('cd') {
             steps {
-                echo "cd command"
-                sh './sportyfit_backend/'
+                dir("/home/ubuntu/sportyfit_backend") {
+                 sh "pwd"
+                 }
                
             }
         }
