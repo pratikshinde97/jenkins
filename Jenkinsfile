@@ -12,10 +12,6 @@ pipeline {
                 echo "heloo world"
             }
         }
-          stage('list') {
-            steps {
-               sh ls
-            }
-        }
+    
     }
 }
