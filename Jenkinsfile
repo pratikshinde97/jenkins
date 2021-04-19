@@ -16,6 +16,8 @@ pipeline {
             steps {
                 echo "sh command"
                 sh pwd
+                echo "cd"
+                sh cd
             }
         }
     }
