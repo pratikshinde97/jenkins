@@ -14,7 +14,7 @@ pipeline {
         }
       stage('list') {
             steps {
-                ls
+               sh ls
             }
         }
     }
