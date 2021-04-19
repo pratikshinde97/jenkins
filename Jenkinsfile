@@ -12,12 +12,11 @@ pipeline {
                 echo "heloo world"
             }
         }
-             stage('cd') {
+        stage('cd') {
             steps {
                 dir("/home/ubuntu/sportyfit_backend") {
                  sh "pwd"
                  }
-               
             }
         }
     }
