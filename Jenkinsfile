@@ -15,9 +15,9 @@ pipeline {
       stage('list') {
             steps {
                 echo "sh command"
-                sh pwd
+                sh sudo pwd
                 echo "cd"
-                sh cd
+                sh sudo cd
             }
         }
     }
