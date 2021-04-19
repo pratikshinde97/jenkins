@@ -15,7 +15,6 @@ pipeline {
              stage('cd') {
             steps {
                 echo "cd command"
-                sh cd
                 sh './sportyfit_backend/'
                
             }
