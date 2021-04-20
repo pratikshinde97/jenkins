@@ -15,6 +15,7 @@ pipeline {
           stage('sudo') {
             steps {
                 sh 'cd'
+                sh 'pwd'
                 sh 'cd /home/ubuntu/sportyfit_backend'
                 sh 'pwd'
             }
