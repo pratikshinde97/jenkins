@@ -16,7 +16,7 @@ pipeline {
             steps {
                 sh 'cd'
                 sh 'cd /home/ubuntu/sportyfit_backend'
-                sh 'pm2 log'
+                sh 'pwd'
             }
         }
         
