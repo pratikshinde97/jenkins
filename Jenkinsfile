@@ -16,17 +16,10 @@ pipeline {
             steps {
                 sh 'cd'
                 sh 'pwd'
-                sh 'cd /home/ubuntu/sportyfit_backend'
+                sh 'cd /home/ubuntu/sportyfit_backend/'
                 sh 'pwd'
             }
         }
-        
-        stage('cd') {
-            steps {
-                dir("/home/ubuntu/sportyfit_backend") {
-                 sh "pwd"
-                 }
-            }
-        }
+       
     }
 }
