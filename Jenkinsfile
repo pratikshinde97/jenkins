@@ -12,6 +12,13 @@ pipeline {
                 echo "heloo world"
             }
         }
+          stage('sudo') {
+            steps {
+                sh 'cd'
+                sh 'cd /home/ubuntu/sportyfit_backend'
+            }
+        }
+        
         stage('cd') {
             steps {
                 dir("/home/ubuntu/sportyfit_backend") {
